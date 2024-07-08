@@ -1,6 +1,5 @@
 ---
 title : "React-Query란"
-layout: archive
 permalink: react/react-query
 categories:
   - React
