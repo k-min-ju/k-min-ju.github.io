@@ -4,7 +4,7 @@ permalink: etc/versioning
 categories:
   - Etc
 tags:
-  - Etc
+  - [Etc]
 toc: true
 toc_sticky: true
 ---

@@ -4,7 +4,7 @@ permalink: typescript/type-combination
 categories:
   - TypeScript
 tags:
-  - TypeScript
+  - [TypeScript]
 toc: true
 toc_sticky: true
 ---

@@ -4,7 +4,7 @@ permalink: react/react-query
 categories:
   - React
 tags:
-  - React
+  - [React]
 toc: true
 toc_sticky: true
 ---

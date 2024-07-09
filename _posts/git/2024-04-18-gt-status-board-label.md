@@ -4,7 +4,7 @@ permalink: git/statusBoard/label
 categories:
   - Git
 tags:
-  - Git
+  - [Git]
 toc: true
 toc_sticky: true
 ---

@@ -4,7 +4,7 @@ permalink: git/commitMessage/write
 categories:
   - Git
 tags:
-  - Git
+  - [Git]
 toc: true
 toc_sticky: true
 ---
