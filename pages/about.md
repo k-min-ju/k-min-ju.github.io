@@ -20,39 +20,35 @@ permalink: /about/
 # 티라로보틱스 <span style="font-size: small;">2023.09.01 ~ 재직중</span>
 > WRS(Warehouse Robot Solution)
 
-: 재고 관리, 주문 관리, Picking 관리 등 AMR과 연동하는 시스템을 PC나 Tablet으로 편리하게 사용할 수 있도록
-개발하였으며 jquery로 개발된 레거시 시스템을 next.js로 refactoring하여 주된 기능인 모니터링 및 조회 화면의
-로딩 속도를 개선하고 유지보수를 용이하게 하였습니다.  
+: Jquery로 개발된 레거시 시스템을 Next.js + TypeScript로 refactoring을 진행했습니다. 개발에 필요한 라이브러리를 조사하고 코드의 일관성과 가독성을 
+  높이기 위해 코드 컨벤션도 적용하는 등 프로젝트 초기 단계부터 구축했습니다.
 
-&#10003; Frontend : <span style="color: #EB5757;">NextJS, React, TypeScript, JQuery, JavaScript, HTML, CSS</span>  
+&#10003; Frontend : <span style="color: #EB5757;">NextJS, TypeScript</span>  
 <br>
 
-> FMS(Fleet Management System)  
+> Map Editor
 
-: AMR에 대해 이동 명령, 반송 명령, 목적지, Map을 작성 및 등록할 수 있는 로봇 관리 시스템을 개발하고
-유지보수 하였습니다.
-
-&#10003; Frontend : <span style="color: #EB5757;">JQuery, JavaScript, HTML, CSS</span>  
-<br>
-
-> MapEditor
-
-: RMS(Robot Management System)의 MapEditor개발
+: 캔버스에 AMR의 주행 경로를 표현하고 joystick으로 로봇을 이동시키며 맵을 작성하고 편집할 수 있는 에디터를 개발했습니다.
+  공통 함수 및 API, provider, hook을 위주로 개발하였으며 팀원의 일정을 관리하고 업무를 부여하는 등 프로젝트를 전반적으로 주도하였습니다.
 
 &#10003; Frontend : <span style="color: #EB5757;">React, TypeScript, SASS</span>  
 <br><br>
 
 ---
 # React Toy Project <span style="font-size: small;">2023.05.19 ~ 2023.08.01 (약 3개월)</span>
-> 넷플릭스를 모티브로 사용자 친화적인 UI의 J-MOVIE 개발
+> 넷플릭스를 모티브로 React Frontend 개발
 
-: React 공부 목적으로 Frontend만 개발하였으며 Webpack과 Babel로 프로젝트 빌드 및 번들링하였습니다.
+: React 공부를 목적으로 넷플릭스를 참고하여 Backend없이 Frontend만 개발했습니다. 
+  1. 구글 계정으로 로그인이 가능하도록 구글 로그인 연동 기능 개발
+  2. 영화 제공이 불가능하므로 KMDB API를 사용하여 영화 예고편을 제공하고 video태그 사용
+  3. infinite scroll기능 개발
+  4. 영화 제목 검색 기능 개발
+  5. EC2 free tier를 이용하여 배포하고 웹 서버는 NginX를 사용했습니다.
 
-EC2 free tier를 이용하여 배포하고 웹 서버는 NginX를 사용했습니다.
 
 &#10003; Frontend : <span style="color: #EB5757;">React, JavasScript, Redux ToolKit, CSS</span>  
-&#10003; Backend : <span style="color: #EB5757;">Amazon EC2, NginX</span>  
-&#10003; GitURL : <span style="color: #EB5757;"></span>  
+&#10003; Deployment : <span style="color: #EB5757;">Amazon EC2, NginX</span>  
+&#10003; GitURL : <span style="color: #EB5757;"><a href="https://github.com/k-min-ju/react_project" target="_blank">J-MOVIE</a></span>  
 <br><br>
 
 ---
@@ -80,7 +76,7 @@ EC2 free tier를 이용하여 배포하고 웹 서버는 NginX를 사용했습�
 > LG생활건강 백화점 재고 실사 Hybrid App - <span style="font-size: small;">2019.09 ~ 2019.12 (약 4개월)</span>
 
 : 재고 실사 특성을 고려하여 네트워크 연결 없이도 웹 페이지를 사용할 수 있도록 로컬 웹페이지 방식으로 개발하였으며
-PDA의 barcode scan기능을 활용하여 1차원, 2차원 barcode scan 기능 구현
+PDA의 barcode scan기능을 활용하여 1차원, 2차원 barcode scan 기능을 구현했습니다.
 
 &#10003; Frontend: <span style="color: #EB5757;">JQuery, JavasScript, HTML, CSS</span>  
 <br>
@@ -88,7 +84,7 @@ PDA의 barcode scan기능을 활용하여 1차원, 2차원 barcode scan 기능 �
 > 현대 중국 법인 엘리베이터 관리 Hybrid App - <span style="font-size: small;">2018.06 ~ 2018.08 (약 3개월)</span>
 
 : 엘리베이터 고장 관리, 점검 관리, 작업 관리 등 기사분들이 작업 내역을 관리할 수 있는 App을 개발하였으며
-중국 상해에서 배포 및 안정화 수행하였습니다.
+중국 상해에서 배포 및 안정화를 수행하였습니다.
 
 &#10003; Frontend: <span style="color: #EB5757;">JQuery, JavasScript, HTML, CSS</span>  
 <br>
@@ -106,7 +102,7 @@ PDA의 barcode scan기능을 활용하여 1차원, 2차원 barcode scan 기능 �
 >  비자림 <span style="font-size: small;">2016.11 ~ 2018.01 (약 1년 3개월)</span>
 
 : 구매 관리, 생산 관리, 재고 관리 등 공장 프로세스를 적용한 ERP시스템을 개발했습니다.
-개발에 필요한 Query를 작성하고 서버를 설치하여 고객사에 배포했습니다.
+개발에 필요한 쿼리를 작성하고 서버를 설치하여 고객사에 배포했습니다.
 
 &#10003; Frontend: <span style="color: #EB5757;">ExtJs, JavasScript, HTML, CSS</span>  
 <br><br>
