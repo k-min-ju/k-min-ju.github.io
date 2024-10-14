@@ -18,18 +18,34 @@ permalink: /about/
 </div>
 
 # 티라로보틱스 <span style="font-size: small;">2023.09.01 ~ 재직중</span>
-> WRS(Warehouse Robot Solution)
+> WRS(Warehouse Robot Solution) <span style="font-size: small;"> - 2023.02 ~ 2024.03</span>
 
-: Jquery로 개발된 레거시 시스템을 Next.js + TypeScript로 refactoring을 진행했습니다. 개발에 필요한 라이브러리를 조사하고 코드의 일관성과 가독성을 
-  높이기 위해 코드 컨벤션도 적용하는 등 프로젝트 초기 단계부터 구축했습니다.
+: Jquery로 개발된 레거시 시스템에서 조회 기능이 6~7초 소요되던 문제를 react로 refactoring하여 1초 미만 소요되는 것을 검증했습니다.  
+  Next.js + TypeScript로 refactoring에 필요한 라이브러리(EChart, AgGrid)를 조사하여 채택하고 코드의 일관성과 가독성을 높이기 위해 
+  코드 컨벤션을 적용하는 등 프로젝트 초기 단계부터 구축했습니다.
+  * line, pie, mixed 등 chart 공통 컴포넌트 개발
+  * AgGrid 공통 컴포넌트 개발
+  * input, select, datePicker 공통 컴포넌트 개발
+  * 코드 컨벤션 적용 및 TypeScript 설정
 
 &#10003; Frontend : <span style="color: #EB5757;">NextJS, TypeScript</span>  
 <br>
 
-> Map Editor
+> Map Editor <span style="font-size: small;"> - 2023.03 ~ 2024.08</span>
 
-: 캔버스에 AMR의 주행 경로를 표현하고 joystick으로 로봇을 이동시키며 맵을 작성하고 편집할 수 있는 에디터를 개발했습니다.
-  공통 함수 및 API, provider, hook을 위주로 개발하였으며 팀원의 일정을 관리하고 업무를 부여하는 등 프로젝트를 전반적으로 주도하였습니다.
+: Three.js를 사용하여 AMR 주행에 필요한 노드, 링크, 오브젝트를 캔버스에 시각화하고 편집할 수 있는 Map Editor를 개발했습니다. 
+  XY 축을 따라 오브젝트를 이동 및 회전할 수 있는 컨트롤러와, 방향키와 마우스 클릭으로 AMR 조작이 가능한 조이스틱 컴포넌트를 구현했습니다.
+  * 파일 구조에 배럴 배턴 적용
+  * Three.js를 사용하여 노드및 링크 생성
+  * AMR 조작을 위한 조이스틱 컴포넌트 개발
+  * Axios를 활용한 HTTP 메소드별 Hook 개발
+  * 프로젝트에 필요한 RESTful API 호출 함수 작성
+  * 캔버스 이벤트 바인딩 관리, snackBar Provider 구현
+  * 개발 효율성을 높이는 공통 유틸리티 함수 
+  * 코드 컨벤션 적용 및 TypeScript 설정
+  * display flex를 이용하여 반응형 layout 구축
+
+  팀원들이 기능 개발에 집중할 수 있도록 프로젝트를 주도하고, 일정 관리 및 업무 할당을 수행했습니다.
 
 &#10003; Frontend : <span style="color: #EB5757;">React, TypeScript, SASS</span>  
 <br><br>
@@ -119,13 +135,13 @@ PDA의 barcode scan기능을 활용하여 1차원, 2차원 barcode scan 기능�
 <img class="stacks" src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> 
 <img class="stacks" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white"> 
 <img class="stacks" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
-<img class="stacks" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white"> 
+<img class="stacks" src="https:Y//img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white"> 
 -->
 <img class="stacks" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white">
 <img class="stacks" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"> 
 <img class="stacks" src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white"> 
-<img class="stacks" src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> 
 <img class="stacks" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"> 
 <img class="stacks" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> 
+<img class="stacks" src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> 
 <img class="stacks" src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> 
 <img class="stacks" src="https://img.shields.io/badge/gitlab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
