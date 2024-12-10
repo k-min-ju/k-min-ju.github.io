@@ -17,7 +17,7 @@ permalink: /about/
   <h2>Project & Career</h2>
 </div>
 
-# 티라로보틱스 <span style="font-size: small;">2023.09.01 ~ 재직중</span>
+# 티라로보틱스 <span style="font-size: small;">2023.09.01 ~ 2024.12.01</span>
 > WRS(Warehouse Robot Solution) <span style="font-size: small;"> - 2023.02 ~ 2024.03</span>
 
 : Jquery로 개발된 레거시 시스템에서 조회 기능이 6~7초 소요되던 문제를 react로 refactoring하여 1초 미만 소요되는 것을 검증했습니다.  
@@ -47,7 +47,7 @@ permalink: /about/
 
   팀원들이 기능 개발에 집중할 수 있도록 프로젝트를 주도하고, 일정 관리 및 업무 할당을 수행했습니다.
 
-&#10003; Frontend : <span style="color: #EB5757;">React, TypeScript, SASS</span>  
+&#10003; Frontend : <span style="color: #EB5757;">React, TypeScript, SCSS</span>  
 <br><br>
 
 ---
